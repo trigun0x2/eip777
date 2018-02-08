@@ -1,7 +1,7 @@
 pragma solidity ^0.4.18; // solhint-disable-line compiler-fixed
 
 
-interface Ierc20 {
+interface erc20_token {
     function name() public constant returns (string);
     function symbol() public constant returns (string);
     function decimals() public constant returns (uint8);
